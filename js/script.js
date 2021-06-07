@@ -1,3 +1,13 @@
+var userName = prompt('dimmi il tuo nome')
+document.getElementById('userNamePrint').innerHTML = userName;
+
+
+
+
+
+
+
+// sezione per form
 var button = document.getElementById('button');
 var cupon = document.getElementById('cupon')
 var priceHtml = document.getElementById('price-humburger');

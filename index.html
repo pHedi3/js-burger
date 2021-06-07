@@ -4,28 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <input type="checkbox" class="food-option" id="add-1" value="2.5" >
-    <label for="add-1">Cheese</label>
-    <input type="checkbox" class="food-option" id="add-2" value="1.3" >
-    <label for="add-2">Tomato</label>
-    <input type="checkbox" class="food-option" id="add-3" value="2" >
-    <label for="add-3">Egg</label>
-    <input type="checkbox" class="food-option" id="add-4" value="0.9" >
-    <label for="add-4">Lettuce</label>
-    <input type="checkbox" class="food-option" id="add-5" value="3" >
-    <label for="add-5">Mustard</label>
-    <input type="checkbox" class="food-option" id="add-6" value="1.8" >
-    <label for="add-6">Ketchup</label>
+   <div class="main-background">
+       <div class="container-fluid ">
+           <div class="row">
+               <div class="col-6 option">
+                   <header class="row align-items-center">
+                       <div class="col-12">
+                           <h1>Create Your Burger</h1>
+                       </div>
+                   </header>
+                
+                    <main class="row">
 
-    <input type="text" id="cupon" placeholder="cupon" >
+                        <div class="col-12">
+                            <h2 id="userNamePrint">Nome Utente</h2>
+                        </div>
+                        
+                        <div class="col-12">
+                            <form class="row">
+                                <div class="col-12">
+                                    <h3>Ingredients</h3>
+                                </div>
+                                <div class="col-6">
+                                    <input type="checkbox" class="food-option" id="add-1" value="2.5" >
+                                    <label for="add-1">Cheese</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="checkbox" class="food-option" id="add-2" value="1.3" >
+                                    <label for="add-2">Tomato</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="checkbox" class="food-option" id="add-3" value="2" >
+                                    <label for="add-3">Egg</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="checkbox" class="food-option" id="add-4" value="0.9" >
+                                    <label for="add-4">Lettuce</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="checkbox" class="food-option" id="add-5" value="3" >
+                                    <label for="add-5">Mustard</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="checkbox" class="food-option" id="add-6" value="1.8" >
+                                    <label for="add-6">Ketchup</label>
+                                </div>
+            
+                                <div class="col-12">
+                                    <input type="text" id="cupon" placeholder="cupon" >
+                                </div>
+                                <div class="col-12">
+                                    <div id="button">calculate</div>
+                                </div>
+                            </form>
+                        </div>       
+                    </main>
+    
+                   <footer class="row align-items-center">
+                       <div class="col-6">
+                           <h2>Your Price</h2>
+                       </div>
+                       <div class="col-6">
+                           <div id="price-humburger"></div>
+                       </div>
+                   </footer>
+               </div>
+           </div>
+       </div>
+   </div>
 
-    <div id="button">calculate</div>
 
-    <div id="price-humburger"></div>
+
+
+
+
+
 
 
 

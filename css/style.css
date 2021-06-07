@@ -1,0 +1,40 @@
+/* utility class  */
+
+
+
+
+
+
+
+
+
+
+
+/* end utiliti class  */
+
+.main-background {
+    background-color: #fff5e2;
+}
+
+
+/* leyout header  */
+
+header {
+    background-color: #fdbb40 ;
+    height: 100px;
+}
+
+
+/* leyout main  */
+main {
+    background-color: #ffffff;
+    height: calc(100vh - 180px);
+}
+
+
+
+/* leyout footer  */
+footer {
+    background-color: #d33359;
+    height: 80px;
+}
