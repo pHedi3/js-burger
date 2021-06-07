@@ -2,14 +2,6 @@
 
 
 
-
-
-
-
-
-
-
-
 /* end utiliti class  */
 
 .main-background {
@@ -31,10 +23,35 @@ main {
     height: calc(100vh - 180px);
 }
 
+main img {
+   height: 40px;
+   margin-right: 8px;
+}
+
+form > div {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#button {
+    display: inline-block;
+    background-color: #fdbb40;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+}
 
 
 /* leyout footer  */
 footer {
     background-color: #d33359;
     height: 80px;
+    color: white;
+}
+
+#price-humburger {
+    font-weight: bold;
+    font-size: calc(1.325rem + .9vw);
+    
 }
