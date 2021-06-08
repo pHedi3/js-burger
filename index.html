@@ -12,16 +12,17 @@
    <div class="main-background">
        <div class="container-fluid ">
            <div class="row">
-               <div class="col-6 option">
-                   <header class="row align-items-center">
-                       <div class="col-12">
+               <div class="col-12 col-md-6 option">
+                   <header class="row pad-24 align-items-center">
+                       <div class="col-12 flex">
                            <h1>Create Your Burger</h1>
+                           <img src="./img/burger-top.png" alt="foto hamburger">
                        </div>
                    </header>
 
-                   <main class="row align-items-center">
+                   <main class="row pad-24 align-items-center">
                        <div class="col-12">
-                           <h2 id="userNamePrint">Nome Utente</h2>
+                           <input type="text" placeholder="il mio panino">
                        </div>
 
                        <div class="col -12">
@@ -29,46 +30,52 @@
                                <div class="col-12">
                                    <h3>Ingredients</h3>
                                </div>
-                               <div class="col-6">
+                               <div class="col-4 col-sm-6">
                                    <img src="./img/cheese.svg" alt="foto cheese">
                                     <label for="add-1">Cheese</label>
                                    <input type="checkbox" class="food-option" id="add-1" value="2.5" >
                                    <label for="add-1">add</label>
                                </div>
-                               <div class="col-6">
+                               <div class="col-4 col-sm-6">
                                     <img src="./img/tomato.svg" alt="foto tomato">
                                     <label for="add-2">Tomato</label>
                                    <input type="checkbox" class="food-option" id="add-2" value="1.3" >
                                    <label for="add-2">Add</label>
                                </div>
-                               <div class="col-6">
+                               <div class="col-4 col-sm-6">
                                    <img src="./img/fried-egg.svg" alt="foto egg">
                                     <label for="add-3">Egg</label>
                                    <input type="checkbox" class="food-option" id="add-3" value="2" >
                                    <label for="add-3">Add</label>
                                </div>
-                               <div class="col-6">
+                               <div class="col-4 col-sm-6">
                                    <img src="./img/lettuce.svg" alt="foto lettuce">
                                     <label for="add-4">Lettuce</label>
                                    <input type="checkbox" class="food-option" id="add-4" value="0.9" >
                                    <label for="add-4">Add</label>
                                </div>
-                               <div class="col-6">
+                               <div class="col-4 col-sm-6">
                                    <img src="./img/mustard.svg" alt="foto mustard">
                                     <label for="add-5">Mustard</label>
                                    <input type="checkbox" class="food-option" id="add-5" value="3" >
                                    <label for="add-5">Add</label>
                                </div>
-                               <div class="col-6">
+                               <div class="col-4 col-sm-6">
                                     <img src="./img/ketchup.svg" alt="">
                                    <label for="add-6">Ketchup</label>
                                    <input type="checkbox" class="food-option" id="add-6" value="1.8" >
                                    <label for="add-6">Add</label>
                                </div>
            
-                               <div class="col-12 text-center">
-                                   <span>Discount Cupon:</span>
-                                   <input type="text" id="cupon" placeholder="cupon" >
+                               <div class="col-12">
+                                   <div class="row align-items-center">
+                                       <div class="col-3">
+                                            Discount Cupon: 
+                                       </div>
+                                       <div class="col-9">
+                                           <input type="text" id="cupon" placeholder="inserisci codice sconto" >
+                                       </div>
+                                   </div>
                                </div>
 
                                <div class="col-12 text-center">
@@ -78,7 +85,7 @@
                        </div>    
                    </main>
 
-                   <footer class="row align-items-center">
+                   <footer class="row pad-24 align-items-center">
                        <div class="col-6">
                            <h2>Your Price:</h2>
                        </div>

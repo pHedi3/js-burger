@@ -1,11 +1,3 @@
-var userName = prompt('dimmi il tuo nome')
-document.getElementById('userNamePrint').innerHTML = userName;
-
-
-
-
-
-
 
 // sezione per form
 var button = document.getElementById('button');
@@ -24,16 +16,27 @@ button.addEventListener('click', function(){
             price += parseFloat(foodOption[i].value)
         }
     }
+
+    var flag = false;
+
     for (var x = 0; x < cuponList10.length; x++){
         if (cuponList10[x] == cupon.value ) {
             discount = 10;
+            flag = true;
         }
     }
     for (var z = 0; z < cuponList20.length; z++){
         if (cuponList20[z] == cupon.value ) {
             discount = 20;
+            flag = true;
         }
+
     }
+
+    if (cupon.value.length > 0  && flag == false) {
+        alert('il codice è errato')
+    }
+
 
     price = price * ((100 - discount) / 100) ;
     priceHtml.innerHTML = price.toFixed(2) + '€';
